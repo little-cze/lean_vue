@@ -20,16 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98b992d1-32d8-4996-b919-1a1b0328e419" name="Default Changelist" comment="webpack loader">
-      <change afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/image/pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/image/pic2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/dist/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/node_modules/less-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/node_modules/less-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/node_modules/less/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/node_modules/less/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/css/demo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/webpack.config.js" afterDir="false" />
     </list>
@@ -81,8 +75,16 @@
       <option name="presentableId" value="Default" />
       <updated>1600303928657</updated>
       <workItem from="1600303929691" duration="14884000" />
-      <workItem from="1600324661474" duration="2317000" />
+      <workItem from="1600324661474" duration="3733000" />
     </task>
+    <task id="LOCAL-00001" summary="webpack loader">
+      <created>1600326989922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600326989922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +123,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600305588475" />
+    <state x="795" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600327002390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600327002390" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600312512168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

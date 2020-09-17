@@ -32,10 +32,24 @@ module.exports = {
                     {
                         loader: 'url-loader',
                         options: {
-                            limit: 8196
-                        }
+                            limit: 8196,
+                            name:'img/[name].[hash:8].[ext]'
+                        },
+
                     }
                 ]
+            },
+            {
+                test: /\.js$/,
+                //exclude:排除
+                //include:包含
+                exclude: /(node_modules|bower_components)/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-env']
+                    }
+                }
             }
         ]
     }

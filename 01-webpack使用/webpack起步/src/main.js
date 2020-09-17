@@ -15,3 +15,5 @@ require('./css/demo.css')
 //依赖Less
 // require('./css/super.less')
 document.write("hahah")
+
+//babel
