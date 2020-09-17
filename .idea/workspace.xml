@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vuedemo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b992d1-32d8-4996-b919-1a1b0328e419" name="Default Changelist" comment="" />
+    <list default="true" id="98b992d1-32d8-4996-b919-1a1b0328e419" name="Default Changelist" comment="webpack loader">
+      <change afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/image/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/image/pic2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/node_modules/less-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/node_modules/less-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/node_modules/less/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/node_modules/less/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/css/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +48,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hcIPPXy0PJUZsDpcaxm2KEstUd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\001\WebstormProjects\learnVue\01-webpack使用\webpack起步\src\image" />
       <recent name="C:\Users\001\WebstormProjects\learnVue\01-webpack使用\webpack起步\src\js" />
       <recent name="C:\Users\001\WebstormProjects\learnVue\01-webpack使用\webpack起步" />
     </key>
@@ -44,12 +80,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600303928657</updated>
-      <workItem from="1600303929691" duration="12204000" />
+      <workItem from="1600303929691" duration="14884000" />
+      <workItem from="1600324661474" duration="2317000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="webpack loader" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpack loader" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1600305588475">

@@ -13,4 +13,5 @@ console.log("name")
 require('./css/demo.css')
 
 //依赖Less
-require('./css/super.less')
+// require('./css/super.less')
+document.write("hahah")
