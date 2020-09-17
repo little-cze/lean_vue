@@ -7,12 +7,21 @@ module.exports = {
         filename: "bundle.js",
         publicPath:'dist/'
     },
+    resolve:{
+        //alias :别名 git
+        alias:{
+            'vue$':'vue/dist/vue.esm.js'
+        }
+    },
     mode: 'development',
     module: {
         rules: [
             {test: /\.css$/, use: ['style-loader', 'css-loader']},
             {test: /\.ts$/, use: 'ts-loader'},
             {test: /\.less$/, use: 'less_loader'},
+            {test: /\.vue$/,use: [
+                'vue-loader'
+                ]},
             {
                 test: /\.less$/,
                 use: [{
@@ -39,18 +48,18 @@ module.exports = {
                     }
                 ]
             },
-            {
-                test: /\.js$/,
-                //exclude:排除
-                //include:包含
-                exclude: /(node_modules|bower_components)/,
-                use: {
-                    loader: 'babel-loader',
-                    options: {
-                        presets: ['@babel/preset-env']
-                    }
-                }
-            }
+            // {
+            //     test: /\.js$/,
+            //     //exclude:排除
+            //     //include:包含
+            //     exclude: /(node_modules|bower_components)/,
+            //     use: {
+            //         loader: 'babel-loader',
+            //         options: {
+            //             presets: ['@babel/preset-es2015']
+            //         }
+            //     }
+            // }
         ]
     }
 }

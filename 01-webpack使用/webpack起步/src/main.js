@@ -14,6 +14,22 @@ require('./css/demo.css')
 
 //依赖Less
 // require('./css/super.less')
-document.write("hahah")
+// document.write("hahah")
 
 //babel
+
+//使用vue进行开发
+import Vue from 'vue'
+// import App from './vue/app'
+import App from './vue/abc.vue'
+new Vue({
+    el:"#app",
+    template: `<App></App>`,
+    completes:{
+        App:"#app"
+    }
+    // data:{
+    //     message:"a"
+    // }
+})
+
