@@ -19,17 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b992d1-32d8-4996-b919-1a1b0328e419" name="Default Changelist" comment="webpack vue文件封装">
-      <change afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/dist/bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/dist/img/pic1.f0b1bced.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/dist/index.html" afterDir="false" />
+    <list default="true" id="98b992d1-32d8-4996-b919-1a1b0328e419" name="Default Changelist" comment="webpack plugin">
+      <change afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/build/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/build/dev.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/build/prod.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/dist/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/dist/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-webpack使用/webpack起步/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-webpack使用/webpack起步/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +39,8 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="Less File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -85,7 +81,7 @@
       <updated>1600303928657</updated>
       <workItem from="1600303929691" duration="14884000" />
       <workItem from="1600324661474" duration="10215000" />
-      <workItem from="1600388416022" duration="2750000" />
+      <workItem from="1600388416022" duration="5434000" />
     </task>
     <task id="LOCAL-00001" summary="webpack loader">
       <created>1600326989922</created>
@@ -108,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600334922281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="webpack plugin">
+      <created>1600391657236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600391657236</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +134,8 @@
     <MESSAGE value="webpack loader" />
     <MESSAGE value="webpack es6转es5" />
     <MESSAGE value="webpack vue文件封装" />
-    <option name="LAST_COMMIT_MESSAGE" value="webpack vue文件封装" />
+    <MESSAGE value="webpack plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpack plugin" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1600305588475">
@@ -150,10 +154,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600305588475" />
-    <state x="795" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600334933455">
+    <state x="795" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600391667338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="795" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600334933455" />
+    <state x="795" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600391667338" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600312512168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

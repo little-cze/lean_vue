@@ -30,7 +30,7 @@ module.exports = {
             {test: /\.ts$/, use: 'ts-loader'},
             {test: /\.less$/, use: 'less_loader'},
             {test: /\.vue$/,use: [
-                'vue-loader'
+                    'vue-loader'
                 ]},
             {
                 test: /\.less$/,
