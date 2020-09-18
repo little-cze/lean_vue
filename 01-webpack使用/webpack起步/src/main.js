@@ -25,11 +25,9 @@ import App from './vue/abc.vue'
 new Vue({
     el:"#app",
     template: `<App></App>`,
-    completes:{
-        App:"#app"
-    }
-    // data:{
-    //     message:"a"
-    // }
+    components:{
+        App
+    },
+
 })
 

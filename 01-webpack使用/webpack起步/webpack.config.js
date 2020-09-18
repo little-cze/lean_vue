@@ -1,14 +1,24 @@
-const path = require("path")
-
+const path = require("path");
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyjsWebpackPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
     entry: "./src/main.js",
+    devtool:"sourcemap",
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "bundle.js",
-        publicPath:'dist/'
+        // publicPath:'dist/'
     },
+    plugins:[
+        new VueLoaderPlugin(),
+        new HtmlWebpackPlugin({
+            template:'index.html'
+        }),
+        new UglifyjsWebpackPlugin()
+    ],
     resolve:{
-        //alias :别名 git
+        //alias :别名
         alias:{
             'vue$':'vue/dist/vue.esm.js'
         }
