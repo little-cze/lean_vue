@@ -1,21 +1,35 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link>
+    |
     <router-link to="/about">About</router-link>
   </div>
-  <router-link to="/first">First</router-link> |
+  <router-link to="/first">First</router-link>
+  |
   <router-link :to="'/user/'+userId">User</router-link>
+  <button @click="getData">Profile</button>
   <router-view>
 
   </router-view>
+
 </template>
 
 <script>
 export default {
-  name:'App',
-  data(){
+  name: 'App',
+  methods: {
+    getData() {
+      this.$router.push({
+        path: '/profile', query: {
+          name: "cze", pass: "123",
+        }
+      })
+      console.log(this.$router);
+    }
+  },
+  data() {
     return {
-      userId:'lisi',
+      userId: 'lisi',
     }
   }
 }

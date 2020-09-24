@@ -1,14 +1,16 @@
 <template>
 <div>
-  <h2>First Page</h2>
-  <router-link to="/profile"></router-link>
-
+  <h2>news</h2>
+  <h2>news</h2>
+  <h2>news</h2>
 </div>
 </template>
 
 <script>
+console.log("aa")
 export default {
-name: "First"
+name: "Home_News",
+
 }
 </script>
 

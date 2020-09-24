@@ -13,6 +13,7 @@ export default {
     First
   }
 }
+console.log("cc")
 </script>
 
 <style scoped>

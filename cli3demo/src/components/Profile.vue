@@ -1,14 +1,15 @@
 <template>
 <div>
-  <h2>当前用户===>>>{{$route.params.userId}}</h2>
+  <h2>This is Profile</h2>
 </div>
 </template>
 
 <script>
-
 export default {
-name: "use_id",
-
+name: "Profile"
 }
-
 </script>
+
+<style scoped>
+
+</style>

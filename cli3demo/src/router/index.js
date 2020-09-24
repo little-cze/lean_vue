@@ -2,17 +2,29 @@ import {createRouter, createWebHistory} from 'vue-router'
 import Home from '../views/Home.vue'
 import First from '../views/FirstPage'
 import User from '../views/use'
+import Profile from "../components/Profile";
 
 const routes = [
     {
-        path: '/',
+        path:"",
+        redirect:"/home"
+    },
+    {
+        path: '/home',
         name: 'Home',
         component: Home,
         children: [
+
             {
                 path: 'news',
-                components: () => import('../components/HomeNews')
+                name:"News",
+                component: () => import('../views/HomeNews')
+            },{
+            path: 'message',
+                name:"Message",
+                component:()=>import('../views/HomeMessage')
             },
+
         ]
     },
     {
@@ -32,6 +44,11 @@ const routes = [
         path: '/user/:userId',
         name: 'use',
         component: User
+    },
+    {
+        path: '/profile',
+        name: 'Profile',
+        component: Profile
     }
 ]
 
