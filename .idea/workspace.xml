@@ -19,18 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b992d1-32d8-4996-b919-1a1b0328e419" name="Default Changelist" comment="router">
-      <change afterPath="$PROJECT_DIR$/cli3demo/src/components/Profile.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli3demo/src/views/HomeMessage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli3demo/src/views/HomeNews.vue" afterDir="false" />
+    <list default="true" id="98b992d1-32d8-4996-b919-1a1b0328e419" name="Default Changelist" comment="嵌套路由">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli3demo/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cli3demo/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli3demo/src/components/First.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cli3demo/src/components/First.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli3demo/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/cli3demo/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli3demo/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cli3demo/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli3demo/src/views/FirstPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cli3demo/src/views/FirstPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli3demo/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cli3demo/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli3demo/src/views/use.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cli3demo/src/views/use.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli3demo/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cli3demo/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +81,8 @@
       <workItem from="1600581278995" duration="5438000" />
       <workItem from="1600646965448" duration="24554000" />
       <workItem from="1600847098114" duration="6964000" />
-      <workItem from="1600907838153" duration="3072000" />
+      <workItem from="1600907838153" duration="10146000" />
+      <workItem from="1600992783603" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="webpack loader">
       <created>1600326989922</created>
@@ -141,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600847140326</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="嵌套路由">
+      <created>1600911571406</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600911571406</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +165,8 @@
     <MESSAGE value="webpack vue文件封装" />
     <MESSAGE value="webpack plugin" />
     <MESSAGE value="router" />
-    <option name="LAST_COMMIT_MESSAGE" value="router" />
+    <MESSAGE value="嵌套路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="嵌套路由" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1899" height="225" key="GridCell.Tab.0.bottom" timestamp="1600693109090">
@@ -197,5 +197,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600312512168" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600913615951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600913615951" />
   </component>
 </project>
